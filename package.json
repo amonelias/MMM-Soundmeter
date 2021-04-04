@@ -1,0 +1,12 @@
+{
+    "name": "MMM-Soundmeter",
+    "version": "1.0.0",
+    "description": "A MagicMirror² module to display the RMS sound values using shichao-an/soundmeter.",
+    "main": "MMM-Soundmeter.js",
+    "author": "amonelias",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/amonelias/MMM-MMM-Soundmeter"
+      }
+  }
