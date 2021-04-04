@@ -1,12 +1,16 @@
 # MMM-Soundmeter
 A MagicMirror² module to display the RMS sound values using shichao-an/soundmeter. 
 
-# Dependencies
+## Dependencies
 
 - [soundmeter](https://pypi.org/project/soundmeter/)
 
-# Config
+## Installation
+1. Navigate to the `/modules` folder of you MagicMirror²
+2. Clone this repository using the following command: `git clone https://github.com/amonelias/MMM-Soundmeter.git`
+3. Install dependencies using the following command: `pip3 install soundmeter`
 
+## Config
 <table>
   <thead>
     <tr>
@@ -29,3 +33,19 @@ A MagicMirror² module to display the RMS sound values using shichao-an/soundmet
     </tr>
   </tbody>
 </table>
+
+To use this module, add it to the modules array in the `config/config.js` file:
+```javascript
+  {
+    module: 'MMM-Soundmeter',
+    position: 'top_right', // any possible region
+    config: {
+      refreshTime: 10000,
+      duration: 5,
+      fontSize: "medium",
+    },
+  },
+```
+
+## Update
+Navigate to the folder of the module in the `/modules` folder and get the latest version using the command `git pull`.
