@@ -25,7 +25,7 @@ A MagicMirror² module to display the RMS sound values using shichao-an/soundmet
     </tr>
     <tr>
       <td><code>duration</code></td>
-      <td><strong>Default: 5</strong><br>Duration of the audio recording<br><br><strong>Type:</strong> <code>number</code></td>
+      <td><strong>Default: 5</strong><br>Duration of the audio recording in seconds<br><br><strong>Type:</strong> <code>number</code></td>
     </tr>
     <tr>
       <td><code>fontSize</code></td>
